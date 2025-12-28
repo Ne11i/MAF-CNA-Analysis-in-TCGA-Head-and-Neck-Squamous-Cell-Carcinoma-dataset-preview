@@ -4,4 +4,4 @@ The full implementation and notebooks are maintained in a private repository and
 
 ## Project Description
 
-Pipeline for patient-specific pathway perturbation analysis based on somatic mutations and CNAs, demonstrated on the TCGA HNSC dataset. Includes notebooks covering data retrieval, driver gene identification, pathway effector analysis with graph-based metrics, perturbation characterization, patient-level case studies, and clinical validation.
+Pipeline for patient-specific signaling pathway perturbation analysis based on somatic mutations and CNAs in TCGA HNSC. The workflow includes cBioPortal data retrieval, driver gene identification using OncodriveCLUST, graph-based pathway analysis with NetworkX, functional enrichment with g:Profiler and gseapy, and clinical validation using Kaplan–Meier curves.
